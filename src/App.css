@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap");
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  background-color: rgb(77, 36, 243);
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.container {
+  background-color: #e8e8e8;
+  width: 70%;
+  margin: auto;
+  min-height: 100vh;
+  padding: 4vmax 8vmax;
+  box-sizing: border-box;
+}
+
+.container > form {
+  display: flex;
+  flex-direction: column;
+}
+
+.container > h1 {
+  text-align: center;
+  margin: 1.8rem;
+  font-size: 2.5rem;
+}
+
+.container > form > input,
+textarea,
+button {
+  padding: 1rem;
+  font-size: 1.2rem;
+  border: 1px solid rgba(0, 0, 0, 0.214);
+  margin: 0.5rem 0;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+textarea {
+  resize: none;
+}
+button {
+  border: none;
+  color: #fff;
+  background-color: #101010;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #282828;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  background-color: azure;
+  padding: 1.5rem;
+  margin: 1rem 0;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.task > div {
+  width: 100%;
+}
+.task > button {
+  background-color: rgb(250, 0, 0);
+  border-radius: 100%;
+  width: 2rem;
+  height: 2rem;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+}
+.task > button:hover {
+  background-color: rgb(236, 71, 71);
+}
+
+.task span {
+  color: rgba(0, 0, 0, 0.649);
+}
